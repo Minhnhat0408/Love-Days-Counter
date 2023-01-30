@@ -100,3 +100,31 @@
     }
     
 }
+
+@media (min-width:320px) and (max-width:739px) {
+    .msg-box{
+        width: 60vw;
+    }
+
+
+    .sender{
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 6vw;
+        padding-top: 1vw;
+        align-self: center;
+        padding-bottom: 1vw;
+        border-bottom: 0.2vw solid rgb(241, 87, 113);
+    }
+    
+    .msg{
+        font-size: 4vw;
+    }
+
+    .out-btn{
+        height: fit-content;
+        font-size: 4vw;
+        top: 90%;
+      
+    }
+}
