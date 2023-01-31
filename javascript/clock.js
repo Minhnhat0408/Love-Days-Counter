@@ -9,11 +9,11 @@ function showTime() {
   let time = new Date();
   let output = time.toLocaleTimeString("en-US",{hour12: false});
   const arr = output.split(":");
-  arr[0] = (arr[0] == 24) ? 0:arr[0];
+  arr[0] = (arr[0] == '24') ? '00':arr[0];
   if(parseInt(arr[2]) % 60  == 0 && parseInt(arr[0]) % 24 == 0  && parseInt(arr[1]) == 0){
     document.location.href = "Heart.html";
   }
-  displayTime.innerText = `${pad(arr[0])}:${arr[1]}:${arr[2]}`;
+  displayTime.innerText = `${arr[0]}:${arr[1]}:${arr[2]}`;
   setTimeout(showTime, 1000);
 }   
 
