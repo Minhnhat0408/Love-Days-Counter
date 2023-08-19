@@ -1,2 +1,2 @@
 # My-Love
-An old present with new responsive system 
+Love counter with a heart generate on out anniversary ( Update: we broke up :( )
