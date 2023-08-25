@@ -9,7 +9,7 @@ const msg = p => {
     if (p == 'Minh') {
         person = 'Minh'
         sender.innerHTML += "Anh Iu <3";
-        msgtxt.innerHTML = "Được 1 năm rồi nhỉ. Cảm ơn em vì đã đồng hành cùng anh suốt hành trình này, và cũng xin lỗi vì đã luôn làm em buồn. Anh biết anh tồi nhưng... Trà ơi cùng anh đi tiếp nhé. ANH YÊU EM";
+        msgtxt.innerHTML = "";
 
     } else {
         person = 'Tra';
